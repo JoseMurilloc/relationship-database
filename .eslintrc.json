@@ -28,12 +28,6 @@
       }
     ],
     "no-useless-constructor": "off",
-    "@typescript-eslint/interface-name-prefix": [
-      "error",
-      {
-        "prefixWithI": "always"
-      }
-    ],
     "@typescript-eslint/camelcase": "off",
     "prettier/prettier": "error",
     "class-methods-use-this": "off",
@@ -43,7 +37,9 @@
       {
         "ts": "never"
       }
-    ]
+    ],
+    "@typescript-eslint/interface-name-prefix": "off",
+    "camelcase": "off"
   },
   "settings": {
     "import/resolver": {
